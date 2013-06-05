@@ -128,6 +128,7 @@ read_passphrase(const char *prompt, int flags)
 		if (!isatty(STDIN_FILENO)) {
 			debug("read_passphrase: stdin is not a tty");
 			use_askpass = 1;
+            rppflags |= RPP_STDIN;
 		}
 	} else {
 		rppflags |= RPP_REQUIRE_TTY;
