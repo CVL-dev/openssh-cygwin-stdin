@@ -32,3 +32,4 @@ openssh/sshd.8.out
 openssh/sshd_config.5.out
 openssh/sshd_config.out
 openssh/survey.sh
+minimal_tree/*
