@@ -2,6 +2,7 @@
 
 rm -fr minimal_tree
 mkdir minimal_tree
+mkdir minimal_tree/bin
 cp -vr minimal_tree_with_nothing/* minimal_tree/
 
 cp /bin/cygasn*dll         \
